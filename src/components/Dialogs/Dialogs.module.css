@@ -1,0 +1,49 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+}
+.dialogItem {
+    width: 270px;
+    margin: 10px 10px 20px 10px;
+    font-family: "Book Antiqua";
+}
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+}
+.NavLink {
+    color: #edeef0;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+}
+.active {
+    color: #e4c3ad;
+    background-color: #486d8a;
+}
+.item_text {
+    margin-left: 5%;
+}
+.messages {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+}
+.message {
+    margin-top: 20px;
+}
+.message, .message_sender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.message_sender img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+.sendMessage {
+
+}

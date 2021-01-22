@@ -1,0 +1,33 @@
+nav {
+    grid-area: nav;
+    margin-left: 10vw;
+}
+
+nav li {
+    list-style: none;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 20px;
+}
+
+nav a:visited {
+    color: #486d8a;
+}
+
+nav a:hover {
+    background: #9ea3b0;
+    color: #edeef0;
+    transition: 0.4s;
+}
+
+nav a {
+    color: #486d8a;
+    text-decoration: none;
+    background: #edeef0;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+nav a.active {
+    color: white;
+    background: #00a8e1;
+}

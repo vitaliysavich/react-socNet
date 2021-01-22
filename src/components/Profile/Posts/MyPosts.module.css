@@ -1,0 +1,10 @@
+.posts {
+    margin: 10px 55px;
+}
+textarea {
+    resize: none;
+    overflow: auto;
+}
+button {
+    margin-left: 2em;
+}
